@@ -94,7 +94,7 @@ nextButtonNode.addEventListener('click', embla.scrollNext, false)
 
 Modifying the minimal [component setup](/get-started/react/#the-component-structure) from the installation guide, we're going to use the `emblaApi` to create our `scrollPrev` and `scrollNext` functions:
 
-```jsx{7-9,11-13,24,27}
+```jsx{7-9,11-13,17,24,27}
 import React, { useCallback } from 'react'
 import { useEmblaCarousel } from 'embla-carousel/react'
 
